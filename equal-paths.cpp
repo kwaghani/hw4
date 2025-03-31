@@ -8,7 +8,7 @@ using namespace std;
 
 
 // You may add any prototypes of helper functions here
-
+// bool checkLeafDepth(Node* root, int depth, int& leafDepth);
 
 bool checkLeafDepth(Node* root, int depth, int& leafDepth) {
     if (!root) return true;
